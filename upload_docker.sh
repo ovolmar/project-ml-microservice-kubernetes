@@ -6,10 +6,12 @@
 # Step 1:
 # Create dockerpath
 # dockerpath=<your docker ID/path>
-
+image_name=ml-project-flask
+dockerpath=ovolmar/${image_name}
 # Step 2:  
 # Authenticate & tag
 echo "Docker ID and Image: $dockerpath"
-
+docker tag $image_name $dockerpath
 # Step 3:
 # Push image to a docker repository
+docker push ${dockerpath}
