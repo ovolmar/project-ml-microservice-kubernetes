@@ -10,7 +10,8 @@ dockerpath=ovolmar/${image_name}
 # Step 2:  
 # Step 2
 # Run the Docker Hub container with kubernetes
-
+docker login
+echo "talk to me goose"
 kubectl create deployment $image_name --image=${dockerpath} --port=80 
 
 kubectl set image $image_name 
@@ -21,5 +22,5 @@ kubectl get pods
 mypod=$(kubectl get pods  | grep $image_name  | awk '{print $1}')
 # Step 4:
 # Forward the container port to a host
-sleep 30
+
 kubectl port-forward $mypod  8000:80
