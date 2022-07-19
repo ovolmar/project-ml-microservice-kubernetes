@@ -6,7 +6,7 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Sat Jul 16 11:24:29 2022
+# Make data base, printed on Tue Jul 19 06:55:37 2022
 
 # Variables
 
@@ -21,6 +21,7 @@ GUESTFISH_INIT = \e[1;34m
 # environment
 DESKTOP_SESSION = gnome
 # default
+ 
 .SHELLFLAGS := -c
 # environment
 XDG_SESSION_TYPE = x11
@@ -71,7 +72,7 @@ MAKE_HOST := x86_64-redhat-linux-gnu
 # environment
 PATH = /home/jarvis/.devops/bin:/home/jarvis/.local/bin:/home/jarvis/bin:/home/jarvis/.local/bin:/home/jarvis/bin:/usr/lib64/ccache:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/sbin:/var/lib/snapd/snap/bin
 # environment
-SESSION_MANAGER = local/unix:@/tmp/.ICE-unix/5396,unix/unix:/tmp/.ICE-unix/5396
+SESSION_MANAGER = local/unix:@/tmp/.ICE-unix/5579,unix/unix:/tmp/.ICE-unix/5579
 # environment
 XDG_RUNTIME_DIR = /run/user/1000
 # environment
@@ -157,7 +158,7 @@ XDG_CURRENT_DESKTOP = GNOME
 # default
 MAKE_COMMAND := make
 # environment
-OLDPWD = /home/jarvis/nanodegree/microservices/DevOps_Microservices
+OLDPWD = /home/jarvis
 # default
 .VARIABLES := 
 # automatic
@@ -189,7 +190,7 @@ endef
 # environment
 S_COLORS = auto
 # environment
-DESKTOP_AUTOSTART_ID = 1046e370526d5b00bf165797932031974800000053960020
+DESKTOP_AUTOSTART_ID = 10bb0471da3c58beee165822737985142100000055790020
 # default
 MAKEFILES := 
 # automatic
@@ -197,7 +198,7 @@ MAKEFILES :=
 # environment
 LC_ALL = C
 # environment
-GNOME_TERMINAL_SCREEN = /org/gnome/Terminal/screen/f59909c5_f813_430e_bf18_1f169e49bde8
+GNOME_TERMINAL_SCREEN = /org/gnome/Terminal/screen/2e6534ed_d4f4_4f33_898c_c802195b8fc6
 # automatic
 ^F = $(notdir $^)
 # environment
@@ -219,7 +220,7 @@ LANG = C
 # environment
 which_declare = declare -f
 # environment
-VSCODE_PID = 57319
+VSCODE_PID = 8695
 # environment
 GUESTFISH_RESTORE = \e[0m
 # variable set hash-table stats:
@@ -231,9 +232,9 @@ GUESTFISH_RESTORE = \e[0m
 
 # Directories
 
-# . (device 64770, inode 4592464): 16 files, no impossibilities.
+# . (device 64770, inode 4592464): 17 files, no impossibilities.
 
-# 16 files, no impossibilities in 1 directories.
+# 17 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
@@ -275,7 +276,6 @@ Makefile:
 test:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
- 
 #  File has not been updated.
 #  recipe to execute (from 'Makefile', line 19):
 	# Additional, optional, tests could go here
@@ -323,6 +323,7 @@ install:
 # automatic
 # ? := 
 # variable set hash-table stats:
+ 
 # Load=8/32=25%, Rehash=0, Collisions=1/11=9%
 #  recipe to execute (from 'Makefile', line 14):
 	# This should be run from inside a virtualenv
@@ -337,12 +338,12 @@ install:
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 25 / storage = 257 B / avg = 10 B
-# current buf: size = 8162 B / used = 257 B / count = 25 / avg = 10 B
+# strcache buffers: 1 (0) / strings = 26 / storage = 271 B / avg = 10 B
+# current buf: size = 8162 B / used = 271 B / count = 26 / avg = 10 B
 
-# strcache performance: lookups = 39 / hit rate = 35%
+# strcache performance: lookups = 40 / hit rate = 35%
 # hash-table stats:
-# Load=25/8192=0%, Rehash=0, Collisions=1/39=3%
-# Finished Make data base on Sat Jul 16 11:24:29 2022
+# Load=26/8192=0%, Rehash=0, Collisions=1/40=2%
+# Finished Make data base on Tue Jul 19 06:55:37 2022
 
  
